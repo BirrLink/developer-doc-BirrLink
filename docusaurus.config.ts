@@ -58,7 +58,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/720x_cover.png',
     colorMode: {
-      respectPrefersColorScheme: true,
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
     },
     navbar: {
       title: 'BirrLink',
