@@ -10,7 +10,7 @@ Testing is a critical part of integrating with BirrLink. Our sandbox environment
 
 The BirrLink sandbox environment is a complete replica of our production system, designed specifically for testing:
 
-- **Base URL**: `https://sandbox.birrlink.com/api/v1`
+- **Base URL**: `https://sandbox.birrlink.et/api/v1`
 - **API Keys**: Different from production keys
 - **Test Data**: All data exists only in the sandbox
 - **No Real Money**: Transactions don't involve actual funds
@@ -20,7 +20,7 @@ The BirrLink sandbox environment is a complete replica of our production system,
 To access the sandbox environment:
 
 1. Register for a BirrLink merchant account
-2. Navigate to your [Dashboard](https://dashboard.birrlink.com)
+2. Navigate to your [Dashboard](https://dashboard.birrlink.et)
 3. Switch to the **Sandbox** environment
 4. Find your test API keys under **Settings** → **API Keys**
 
@@ -219,6 +219,6 @@ If you encounter issues during testing:
 - Check the [API Reference](../api/overview) for correct parameter formats
 - Review your webhook logs for delivery issues
 - Verify your authentication credentials
-- Contact our [support team](mailto:support@birrlink.com) with specific details about the issue
+- Contact our [support team](mailto:support@birrlink.et) with specific details about the issue
 
 Remember: The sandbox environment is designed to mirror production exactly, so if your integration works correctly in sandbox, it should work in production too.

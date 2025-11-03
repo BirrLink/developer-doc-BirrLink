@@ -43,7 +43,7 @@ Create a new payment request.
     "amount": 100.00,
     "currency": "ETB",
     "payment_method": "mobile_money",
-    "payment_link": "https://pay.birrlink.com/pay_123456789",
+    "payment_link": "https://pay.birrlink.et/pay_123456789",
     "qr_code": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...",
     "expires_at": "2023-10-20T15:30:00Z",
     "created_at": "2023-10-20T14:30:00Z"

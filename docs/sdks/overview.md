@@ -199,7 +199,7 @@ For testing or special configurations:
 ```javascript
 const client = new BirrLink({
   apiKey: process.env.BIRR_LINK_SECRET_KEY,
-  baseUrl: 'https://custom-api.birrlink.com',
+  baseUrl: 'https://custom-api.birrlink.et',
   environment: 'sandbox'
 });
 ```

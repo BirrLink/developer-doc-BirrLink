@@ -207,4 +207,4 @@ Regulations and standards evolve, so we provide:
 - Updates on regulatory changes
 - Best practice sharing
 
-For specific compliance questions or to request compliance documentation, contact our compliance team at compliance@birrlink.com.
+For specific compliance questions or to request compliance documentation, contact our compliance team at compliance@birrlink.et.

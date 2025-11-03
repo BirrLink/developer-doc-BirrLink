@@ -10,7 +10,7 @@ Get started with BirrLink in minutes. This guide will walk you through the basic
 
 Before you begin, you'll need:
 
-- A BirrLink merchant account (sign up at [birrlink.com](https://birrlink.com))
+- A BirrLink merchant account (sign up at [birrlink.et](https://birrlink.et))
 - Your API keys (found in your merchant dashboard)
 - Basic knowledge of HTTP requests or your preferred programming language
 
@@ -111,7 +111,7 @@ The response will contain a payment ID and payment method specific details (like
 
 Use our sandbox environment to test your integration:
 
-- Base URL: `https://sandbox.birrlink.com/api/v1`
+- Base URL: `https://sandbox.birrlink.et/api/v1`
 - Test API keys: Available in your sandbox dashboard
 - Test payment methods: Various test credentials available in documentation
 
@@ -128,4 +128,4 @@ When you're ready to go live:
 
 - Check our [API Reference](./api/overview) for detailed endpoint documentation
 - Join our [developer community](https://discord.gg/birrlink)
-- Contact our [support team](mailto:support@birrlink.com)
+- Contact our [support team](mailto:support@birrlink.et)

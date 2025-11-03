@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://birrlink.com',
+  url: 'https://birrlink.et',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -97,7 +97,7 @@ const config: Config = {
           items: [
             {
               label: 'Support',
-              href: 'mailto:support@birrlink.com',
+              href: 'mailto:support@birrlink.et',
             },
             {
               label: 'Twitter',

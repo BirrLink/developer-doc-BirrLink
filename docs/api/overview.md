@@ -8,8 +8,8 @@ The BirrLink API allows you to integrate payment processing directly into your a
 
 ## Base URL
 
-- **Sandbox**: `https://sandbox.birrlink.com/api/v1`
-- **Production**: `https://api.birrlink.com/v1`
+- **Sandbox**: `https://sandbox.birrlink.et/api/v1`
+- **Production**: `https://api.birrlink.et/v1`
 
 ## Authentication
 
@@ -56,7 +56,7 @@ All API responses are JSON objects. Successful requests return a 2xx status code
     "amount": 100.00,
     "currency": "ETB",
     "payment_method": "mobile_money",
-    "payment_link": "https://pay.birrlink.com/pay_123456789",
+    "payment_link": "https://pay.birrlink.et/pay_123456789",
     "created_at": "2023-10-20T14:30:00Z"
   }
 }

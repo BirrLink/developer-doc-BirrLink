@@ -10,13 +10,13 @@ The BirrLink sandbox environment is a complete, isolated replica of our producti
 
 ### API Credentials
 - Sandbox API keys are different from your production keys
-- Find your sandbox credentials in the [BirrLink Dashboard](https://dashboard.birrlink.com) under the Sandbox section
+- Find your sandbox credentials in the [BirrLink Dashboard](https://dashboard.birrlink.et) under the Sandbox section
 - Test keys follow the format `sk_test_...` and `pk_test_...`
 
 ### Base URLs
-- **API**: `https://sandbox.birrlink.com/api/v1`
-- **Payment Pages**: `https://pay.sandbox.birrlink.com`
-- **Dashboard**: `https://dashboard.sandbox.birrlink.com`
+- **API**: `https://sandbox.birrlink.et/api/v1`
+- **Payment Pages**: `https://pay.sandbox.birrlink.et`
+- **Dashboard**: `https://dashboard.sandbox.birrlink.et`
 
 ## Setting up Your Application
 

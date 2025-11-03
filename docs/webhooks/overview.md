@@ -18,7 +18,7 @@ Webhooks allow you to receive real-time notifications about events happening in 
 ### Via API
 
 ```bash
-curl https://api.birrlink.com/v1/webhooks \
+curl https://api.birrlink.et/v1/webhooks \
   -H "Authorization: Bearer YOUR_SECRET_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -30,7 +30,7 @@ curl https://api.birrlink.com/v1/webhooks \
 
 ### Via Dashboard
 
-Alternatively, you can register webhooks through your [BirrLink Dashboard](https://dashboard.birrlink.com):
+Alternatively, you can register webhooks through your [BirrLink Dashboard](https://dashboard.birrlink.et):
 
 1. Log in to your dashboard
 2. Navigate to **Settings** → **Webhooks**

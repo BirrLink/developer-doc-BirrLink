@@ -15,7 +15,7 @@ npm install @birrlink/sdk
 
 ### Browser
 ```html
-<script src="https://cdn.birrlink.com/sdk/v1/birrlink.min.js"></script>
+<script src="https://cdn.birrlink.et/sdk/v1/birrlink.min.js"></script>
 ```
 
 ## Initialization
@@ -44,7 +44,7 @@ const client = new BirrLink({
   environment: 'sandbox', // 'sandbox' or 'production'
   timeout: 30000, // Request timeout in milliseconds (default: 30000)
   maxRetries: 3, // Number of retry attempts (default: 3)
-  baseUrl: 'https://api.birrlink.com/v1' // Override base URL if needed
+  baseUrl: 'https://api.birrlink.et/v1' // Override base URL if needed
 });
 ```
 

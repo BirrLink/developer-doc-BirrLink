@@ -31,7 +31,7 @@ client = BirrLink(
     environment='sandbox',  # 'sandbox' or 'production'
     timeout=30,  # Request timeout in seconds (default: 30)
     max_retries=3,  # Number of retry attempts (default: 3)
-    base_url='https://api.birrlink.com/v1'  # Override base URL if needed
+    base_url='https://api.birrlink.et/v1'  # Override base URL if needed
 )
 ```
 

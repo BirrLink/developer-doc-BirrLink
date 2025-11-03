@@ -49,7 +49,7 @@ BirrLinkOptions options = BirrLinkOptions.builder()
     .setEnvironment(Environment.SANDBOX)
     .setTimeout(30)  // Request timeout in seconds (default: 30)
     .setMaxRetries(3)  // Number of retry attempts (default: 3)
-    .setBaseUrl("https://api.birrlink.com/v1")  // Override base URL if needed
+    .setBaseUrl("https://api.birrlink.et/v1")  // Override base URL if needed
     .build();
 
 BirrLink client = new BirrLink(options);

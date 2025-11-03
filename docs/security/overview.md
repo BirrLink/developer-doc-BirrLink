@@ -165,7 +165,7 @@ For your integration:
 
 ### Vulnerability Disclosure
 If you discover a security vulnerability:
-- Contact our security team at security@birrlink.com
+- Contact our security team at security@birrlink.et
 - Provide detailed information about the vulnerability
 - Allow reasonable time for us to address the issue before disclosure
 - Follow responsible disclosure practices

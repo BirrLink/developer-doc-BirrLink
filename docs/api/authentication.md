@@ -8,7 +8,7 @@ All BirrLink API requests require authentication using your secret API key. This
 
 ## Getting Your API Keys
 
-You can find your API keys in your [BirrLink Dashboard](https://dashboard.birrlink.com):
+You can find your API keys in your [BirrLink Dashboard](https://dashboard.birrlink.et):
 
 1. Log in to your BirrLink merchant account
 2. Navigate to **Settings** → **API Keys**
@@ -27,7 +27,7 @@ Authorization: Bearer YOUR_SECRET_API_KEY
 ### Example
 
 ```bash
-curl https://api.birrlink.com/v1/payments \
+curl https://api.birrlink.et/v1/payments \
   -H "Authorization: Bearer sk_test_1234567890" \
   -H "Content-Type: application/json" \
   -d '{
