@@ -1,69 +1,83 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Global Styles for BirrLink Docs – refined for best web contrast and modern design
  */
 
-/* You can override the default Infima variables here. */
+/* Light mode (default) */
 :root {
-  --ifm-color-primary: #cfd04e; /* BirrLink primary color */
-  --ifm-color-primary-dark: #b8bb2f;
-  --ifm-color-primary-darker: #aeb128;
-  --ifm-color-primary-darkest: #8f9220;
-  --ifm-color-primary-light: #d5d668;
-  --ifm-color-primary-lighter: #dbdc7d;
-  --ifm-color-primary-lightest: #e6e6a7;
-  --ifm-color-emphasis-0: #0a333f; /* For general text and background */
-  --ifm-color-emphasis-900: #0a333f; /* For primary text */
+  --ifm-color-primary: #d4af37; /* digital gold */
+  --ifm-color-primary-dark: #b9972e;
+  --ifm-color-primary-darker: #a68625;
+  --ifm-color-primary-darkest: #8c6e1f;
+  --ifm-color-primary-light: #e0c25a;
+  --ifm-color-primary-lighter: #ecd57c;
+  --ifm-color-primary-lightest: #f6e8a4;
+
+  --ifm-color-emphasis-0: #0b2e3d; /* Deep teal background */
+  --ifm-color-emphasis-900: #0b2e3d; /* Primary text color */
+
+  --ifm-font-color-base: #0b2e3d;
+  --ifm-heading-color: #0b2e3d;
+
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(212, 175, 55, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark mode */
 [data-theme='dark'] {
-  --ifm-color-primary: #cfd04e; /* BirrLink primary color */
-  --ifm-color-primary-dark: #b8bb2f;
-  --ifm-color-primary-darker: #aeb128;
-  --ifm-color-primary-darkest: #8f9220;
-  --ifm-color-primary-light: #d5d668;
-  --ifm-color-primary-lighter: #dbdc7d;
-  --ifm-color-primary-lightest: #e6e6a7;
-  --ifm-color-emphasis-900: #c0c0c0; /* Lighter text for dark mode */
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #d4af37;
+  --ifm-color-primary-dark: #c7a133;
+  --ifm-color-primary-darker: #b3912c;
+  --ifm-color-primary-darkest: #9a7c25;
+  --ifm-color-primary-light: #e0c25a;
+  --ifm-color-primary-lighter: #eddc89;
+  --ifm-color-primary-lightest: #f8efb3;
+
+  --ifm-color-emphasis-900: #d0d0d0; /* lighter text */
+  --ifm-font-color-base: #eaeaea;
+  --ifm-heading-color: #ffffff;
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.08);
 }
 
-/* Custom text colors */
-:root {
-  --ifm-font-color-base: #0a333f; /* Primary text color */
-  --ifm-heading-color: #0a333f; /* Heading text color */
-}
-
-[data-theme='dark'] {
-  --ifm-font-color-base: #e0e0e0; /* Light text for dark mode */
-  --ifm-heading-color: #e0e0e0; /* Light heading for dark mode */
-}
-
-/* Specific color overrides */
+/* Navbar & Link Hover Effects */
 .navbar__link:hover,
 .navbar__link--active {
-  color: #cfd04e;
-}
-
-.button--secondary {
-  color: #0a333f;
+  color: var(--ifm-color-primary);
 }
 
 a {
-  color: #cfd04e;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 a:hover {
-  color: #b8bb2f;
+  color: var(--ifm-color-primary-dark);
 }
 
+/* Buttons */
+.button--secondary {
+  color: var(--ifm-color-emphasis-0);
+  border-color: var(--ifm-color-primary);
+}
+
+.button--secondary:hover {
+  background-color: var(--ifm-color-primary);
+  color: #fff;
+}
+
+/* Table of Contents */
 .table-of-contents__link:hover,
 .table-of-contents__link:hover code,
 .table-of-contents__link--active,
 .table-of-contents__link--active code {
-  color: #cfd04e;
+  color: var(--ifm-color-primary);
+}
+
+/* Improve readability and visual consistency */
+code {
+  background-color: rgba(11, 46, 61, 0.05);
+  color: #b8860b;
+  padding: 0.15em 0.3em;
+  border-radius: 4px;
 }
