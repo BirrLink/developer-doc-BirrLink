@@ -48,7 +48,7 @@ const config: Config = {
         blog: false,
 
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: ['./src/css/custom.css', './src/css/footer.css'],
         },
       } satisfies Preset.Options,
     ],
@@ -63,10 +63,11 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'BirrLink',
+      title: '',
       logo: {
         alt: 'BirrLink Logo',
-        src: 'img/icon.png',
+        src: 'img/birrlink-logo.png', // This will be for light mode
+        srcDark: 'img/night-logo.png',
       },
       items: [
         {
