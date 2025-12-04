@@ -1,0 +1,13 @@
+/**
+ * Any custom CSS here will be applied to the theme.
+ */
+
+/* Sidebar link color */
+.menu__link {
+  color: #062f3f;
+}
+
+/* Active sidebar link color */
+.menu__link--active {
+  color: #062f3f;
+}

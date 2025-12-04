@@ -4,39 +4,55 @@
 
 /* Light mode (default) */
 :root {
-  --ifm-color-primary: #d4af37; /* digital gold */
-  --ifm-color-primary-dark: #b9972e;
-  --ifm-color-primary-darker: #a68625;
-  --ifm-color-primary-darkest: #8c6e1f;
-  --ifm-color-primary-light: #e0c25a;
-  --ifm-color-primary-lighter: #ecd57c;
-  --ifm-color-primary-lightest: #f6e8a4;
+  --ifm-color-primary: #c9c930;
+  --ifm-color-primary-dark: #b4b42b;
+  --ifm-color-primary-darker: #a1a126;
+  --ifm-color-primary-darkest: #858520;
+  --ifm-color-primary-light: #d8d858;
+  --ifm-color-primary-lighter: #e1e172;
+  --ifm-color-primary-lightest: #ebeb9a;
 
   --ifm-color-emphasis-0: #0b2e3d; /* Deep teal background */
   --ifm-color-emphasis-900: #0b2e3d; /* Primary text color */
 
   --ifm-font-color-base: #0b2e3d;
-  --ifm-heading-color: #0b2e3d;
+  --ifm-heading-color: #0f3c4e;
 
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(212, 175, 55, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(201, 201, 48, 0.1);
+  --ifm-navbar-background-color: #f5f6f5; /* Explicitly set navbar to white in light mode */
+  --ifm-menu-link-sublist-icon-color: #c9c930; /* Arrow color for light mode */
 }
 
 /* Dark mode */
-[data-theme='dark'] {
-  --ifm-color-primary: #d4af37;
-  --ifm-color-primary-dark: #c7a133;
-  --ifm-color-primary-darker: #b3912c;
-  --ifm-color-primary-darkest: #9a7c25;
-  --ifm-color-primary-light: #e0c25a;
-  --ifm-color-primary-lighter: #eddc89;
-  --ifm-color-primary-lightest: #f8efb3;
+[data-theme="dark"] {
+  --ifm-color-primary: #cccc31;
+  --ifm-color-primary-dark: #b8b82c;
+  --ifm-color-primary-darker: #a3a327;
+  --ifm-color-primary-darkest: #8f8f22;
+  --ifm-color-primary-light: #dcdc59;
+  --ifm-color-primary-lighter: #e3e373;
+  --ifm-color-primary-lightest: #ebeb9b;
 
   --ifm-color-emphasis-900: #d0d0d0; /* lighter text */
   --ifm-font-color-base: #eaeaea;
   --ifm-heading-color: #ffffff;
 
+  --ifm-background-color: #0b2e3d;
+  --ifm-navbar-background-color: #0b2e3d; /* Set navbar to dark teal in dark mode */
+  --ifm-menu-link-sublist-icon-color: #cccc31; /* Arrow color for dark mode */
+
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.08);
+
+  .menu__link,
+  .menu__link:hover,
+  .menu__link--active {
+    color: #cccc31;
+  }
+
+  .menu__link--sublist::after {
+    background-color: #cccc31;
+  }
 }
 
 /* Navbar & Link Hover Effects */
@@ -68,7 +84,10 @@ a:hover {
 
 /* Table of Contents */
 .table-of-contents__link:hover,
-.table-of-contents__link:hover code,
+.table-of-contents__link:hover code {
+  color: var(--ifm-color-primary-dark);
+}
+
 .table-of-contents__link--active,
 .table-of-contents__link--active code {
   color: var(--ifm-color-primary);
@@ -77,7 +96,24 @@ a:hover {
 /* Improve readability and visual consistency */
 code {
   background-color: rgba(11, 46, 61, 0.05);
-  color: #b8860b;
+  color: #a1a126;
   padding: 0.15em 0.3em;
   border-radius: 4px;
+}
+
+/* Sidebar link color */
+.menu__link,
+.menu__link:hover,
+.menu__link--active {
+  color: #062f3f;
+  line-height: 1.5; /* Give text enough vertical space */
+}
+
+/* Sidebar category arrow color */
+.menu__link--sublist::after {
+  -webkit-mask: var(--ifm-menu-link-sublist-icon) no-repeat 50% / 1.75rem;
+  mask: var(--ifm-menu-link-sublist-icon) no-repeat 50% / 1.75rem;
+  background-image: none;
+  mask: var(--ifm-menu-link-sublist-icon) no-repeat 50% / 1.75rem;
+  background-color: var(--ifm-menu-link-sublist-icon-color);
 }

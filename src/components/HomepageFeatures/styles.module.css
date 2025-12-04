@@ -3,9 +3,20 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
+
+}
+.securePaymentImg {
+  
+  height: 200px; 
+  width: 240px; 
 }
 
-.featureSvg {
+.easyIntegrationImg {
+  height: 200px; 
+  width: 280px;
+}
+
+.reliableServiceImg {
   height: 200px;
-  width: 200px;
+  width: 230px;
 }

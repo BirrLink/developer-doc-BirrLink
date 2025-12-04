@@ -1,6 +1,6 @@
 /**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
+ * CSS files with the .module.css extension are supported as CSS Modules on Docusaurus.
+ * We default to icon and button style overrides.
  */
 
 .heroBanner {
@@ -20,4 +20,42 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.getStartedButton {
+  position: relative;
+  overflow: hidden;
+  transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
+  z-index: 1;
+}
+
+.getStartedButton::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.4s ease-in-out, height 0.4s ease-in-out,
+    background-color 0.4s ease-in-out;
+  z-index: -1;
+}
+
+.getStartedButton:hover {
+  color: rgb(249, 246, 246);
+  background-color: transparent;
+}
+
+.getStartedButton:hover::before {
+  /* A value large enough to cover the button */
+  width: 250%;
+  height: 500%;
+  background-color: var(--ifm-color-primary);
+}
+
+.getStartedButton:active {
+  transform: translateY(1px);
 }
