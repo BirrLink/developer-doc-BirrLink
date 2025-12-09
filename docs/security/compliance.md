@@ -11,9 +11,10 @@ Operating a payment gateway requires adherence to various regulatory and industr
 ### Ethiopian Financial Regulations
 BirrLink operates under the regulatory framework established by the National Bank of Ethiopia (NBE) and complies with all applicable local financial regulations:
 
-- **Payment Systems Proclamation No. 1161/2019**: Governs payment systems and services
-- **Commercial Banking and Financial Institutions Proclamation No. 1248/2021**: Regulates financial institutions
-- **Anti-Money Laundering and Counter-Terrorism Financing Proclamation No. 643/2009**: Requires AML/CFT compliance measures
+- **National Payment System No. 718/2011**: Governs payment systems and services
+- **Proclamation No. 1321/2024 Personal Data Protection**: Safeguarding citizens privacy in a digitalizing nation
+- **Directive No.  FCP /01/2020 Financial Consumer Protection**: Promote financial inclusion
+- **Anti-Money Laundering and Counter-Terrorism Financing Proclamation No. 780/2013**: Requires AML/CFT compliance measures
 
 ### International Standards
 In addition to local regulations, BirrLink adheres to international standards:
@@ -59,7 +60,7 @@ BirrLink implements comprehensive CDD procedures:
 - Reporting to relevant authorities when required
 
 ### Record Keeping
-- Maintain transaction records for 5 years as required by NBE
+- Maintain transaction records for 10 years as required by NBE
 - Keep customer identification records
 - Document all AML-related activities
 - Provide audit trails for regulatory examination
