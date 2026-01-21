@@ -128,4 +128,4 @@ When you're ready to go live:
 
 - Check our [API Reference](./api/overview) for detailed endpoint documentation
 - Join our [developer community](https://discord.gg/birrlink)
-- Contact our [support team](mailto:support@birrlink.et)
+- Contact our [support team](http://dev-land.birrlink.et/support/)

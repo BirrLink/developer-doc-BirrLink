@@ -42,7 +42,7 @@ We welcome contributions to improve our documentation. To contribute:
 If you need help with the BirrLink integration:
 
 - Check our documentation for answers to common questions
-- Contact our support team at support@birrlink.et
+- Contact our support team at http://dev-land.birrlink.et/support/
 - Join our developer community for discussions and support
 
 ## License
