@@ -59,3 +59,20 @@
 .getStartedButton:active {
   transform: translateY(1px);
 }
+
+/* Responsive button text styles */
+/* For medium screens (tablets) */
+@media (max-width: 768px) {
+  .getStartedButton {
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+  }
+}
+
+/* For small screens (mobile phones) */
+@media (max-width: 480px) {
+  .getStartedButton {
+    font-size: 12px;
+    padding: 0.4rem 0.8rem;
+  }
+}

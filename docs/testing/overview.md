@@ -219,6 +219,6 @@ If you encounter issues during testing:
 - Check the [API Reference](../api/overview) for correct parameter formats
 - Review your webhook logs for delivery issues
 - Verify your authentication credentials
-- Contact our [support team](mailto:support@birrlink.et) with specific details about the issue
+- Contact our [support team](http://dev-land.birrlink.et/support/) with specific details about the issue
 
 Remember: The sandbox environment is designed to mirror production exactly, so if your integration works correctly in sandbox, it should work in production too.

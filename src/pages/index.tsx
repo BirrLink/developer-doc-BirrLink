@@ -21,7 +21,7 @@ function HomepageHeader() {
           <Link
             className={clsx(
               "button button--secondary button--lg",
-              styles.getStartedButton
+              styles.getStartedButton,
             )}
             to="/docs/intro"
           >

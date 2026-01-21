@@ -30,7 +30,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/birrlink',
+          editUrl: 'https://github.com/BirrLink/developer-doc-BirrLink/blob/main/',
         },
         blog: false,
         theme: {
@@ -78,7 +78,7 @@ const config: Config = {
         {
           title: 'Community',
           items: [
-            {label: 'Support', href: 'mailto:support@birrlink.et'},
+            {label: 'Support', href: 'http://dev-land.birrlink.et/support/'},
             {label: 'Twitter', href: 'https://twitter.com/birrlink'},
           ],
         },
